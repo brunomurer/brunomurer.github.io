@@ -7,7 +7,7 @@
  * URL: http://blacktie.co
  */
 
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
   	background-color: #ffffff;
@@ -17,7 +17,6 @@ body {
     color: #555;
 
     -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
@@ -123,6 +122,18 @@ a:after {
 
 .progress-bar-theme {
   background-color: #1abc9c;
+}
+
+.progress-60 {
+  width: 60%;
+}
+
+.progress-80 {
+  width: 80%;
+}
+
+.progress-95 {
+  width: 95%;
 }
 
 
@@ -239,4 +250,9 @@ bt {
 .glyphicon {
 	font-size: 40px;
 	color: #1abc9c;
+}
+
+/* Text alignment */
+.text-left {
+	text-align: left;
 }

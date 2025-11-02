@@ -20,12 +20,6 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
     <script src="assets/js/hover.zoom.conf.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
@@ -34,7 +28,7 @@
     <div class="navbar navbar-inverse navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -60,25 +54,25 @@
 			<div class="col-lg-6 col-lg-offset-3 centered">
 				<h3>Contato</h3>
 				<hr>
-				<p>.</p>
+				<p>Entre em contato para discutir seu projeto. Disponível para freelance e consultorias.</p>
 			</div>
 		</div>
 		<div class="row mt">	
 			<div class="col-lg-8 col-lg-offset-2">
-				<form role="form" action="http://formspree.io/b25896451@gmail.com" method="post">
+				<form role="form" action="https://formspree.io/f/xwpkzber" method="post">
 				  <div class="form-group">
-				    <input type="name" class="form-control" id="NameInputEmail1" placeholder="Nome">
+				    <input type="text" name="name" class="form-control" id="NameInputEmail1" placeholder="Nome" required>
 				    <br>
 				  </div>
 				  <div class="form-group">
-				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
 				    <br>
 				  </div>
 				  <div class="form-group">
-				    <input type="text" class="form-control" id="subjectEmail1" placeholder="Assunto">
+				    <input type="text" name="_subject" class="form-control" id="subjectEmail1" placeholder="Assunto" required>
 				    <br>
 				  </div>
-				  <textarea class="form-control" rows="6" placeholder="mensagem"></textarea>
+				  <textarea name="message" class="form-control" rows="6" placeholder="Mensagem" required></textarea>
 				    <br>
 				  <button type="submit" class="btn btn-success">Enviar</button>
 				</form>    			
@@ -103,15 +97,15 @@
 				<div class="col-lg-4">
 					<h4>Redes Sociais</h4>
 					<p>
-						<a href="https://www.linkedin.com/in/bruno-sampaio-609977120/" target="_blank">LinkedIn</a><br/>
-						<a href="#" target="_blank">Twitter</a><br/>
-						<a href="https://www.facebook.com/brunomurer" target="_blank">Facebook</a>
+						<a href="https://www.linkedin.com/in/bruno-sampaio-609977120/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br/>
+						<a href="https://github.com/brunomurer" target="_blank" rel="noopener noreferrer">GitHub</a><br/>
+						<a href="https://www.99freelas.com.br/user/brunomurer" target="_blank" rel="noopener noreferrer">99Freelas</a>
 					</p>
 				</div><!-- /col-lg-4 -->
 				
 				<div class="col-lg-4">
-					<h4>Sobre o tema Stanley</h4>
-					<p>Este belo tema foi criado para mostrar seu trabalho de uma forma simples. Use com sabedoria.</p>
+					<h4>Sobre</h4>
+					<p>Desenvolvedor Full Stack especializado em integrações de pagamento e automação. Avaliação 4.76/5.0 com 18 projetos concluídos.</p>
 				</div><!-- /col-lg-4 -->
 			
 			</div>
